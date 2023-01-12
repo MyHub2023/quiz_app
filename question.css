@@ -1,0 +1,119 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #10162f;
+    color: #fff;
+    width: 100vw;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    flex-direction: column;
+    /* overflow: scroll; */
+    padding: 5rem 5rem 8rem 5rem;
+}
+
+.question {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    align-self: flex-start;
+}
+
+.options .option-txt {
+    width: 60vw;
+    height: 5rem;
+    background-color: #141c3a;
+    color: #fff;
+    border: 0.1rem solid #2d5dcc;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.options .right {
+    background-color: #164032;
+    border: 0.1rem solid #3eb38c;
+}
+.options .wrong {
+    background-color: #661917;
+    border: 0.1rem solid #e53235;
+}
+
+.options .note {
+    font-size: 1.5rem;
+    display: none;
+}
+
+.options .show {
+    display: block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 6rem;
+    background-color: #15141f;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .btn {
+    height: 3.2rem;
+    width: 8.5rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+
+    background-color: #ffd300;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+footer .prev {
+    margin-left: 5rem;
+    width: 6rem;
+    background-color: aquamarine;
+}
+footer .next {
+    margin-right: 5rem;
+}
+
+footer .progress {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+footer .progress .progress-bar {
+    margin-left: 1rem;
+}

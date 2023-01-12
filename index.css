@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #10162F; 
+    color: #fff;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 70%;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    margin: 1.5rem 0;
+}
+
+.form-input label {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-input .form-control {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    height: 3.5rem;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+.load {
+    text-align: center;
+}
+
+.btn {
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    margin-top: 2rem;
+
+    background-color: #FFD300;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+

@@ -1,0 +1,65 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is the primary lyricist for Canadian progressive rock band Rush?",
+            "correct_answer": "Neil Peart",
+            "incorrect_answers": [
+                "Geddy Lee",
+                "Alex Lifeson",
+                "John Rutsey"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Madonna&#039;s song &quot;Hung Up&quot; includes a piece from which popular 70s song?",
+            "correct_answer": "Gimmie! Gimmie! Gimme! (A Man After Midnight)",
+            "incorrect_answers": [
+                "Staying Alive",
+                "Night Fever",
+                "The Chain"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Queen song was covered by Brittany Murphy in the 2006 film &quot;Happy Feet&quot;?",
+            "correct_answer": "Somebody to Love",
+            "incorrect_answers": [
+                "Under Pressure",
+                "Flash",
+                "Bohemian Rhapsody"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which iconic album cover features the pulsar waves of CP 1919 placed in the center of the cover?",
+            "correct_answer": "Unknown Pleasures",
+            "incorrect_answers": [
+                "The Dark Side of the Moon",
+                "London Calling",
+                "The Velvet Underground &amp; Nico"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which rock band released the album &quot;The Bends&quot; in March 1995?",
+            "correct_answer": "Radiohead",
+            "incorrect_answers": [
+                "Nirvana",
+                "Coldplay",
+                "U2"
+            ]
+        }
+    ]
+}
